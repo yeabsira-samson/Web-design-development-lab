@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conference</h1>
+    <p>link to the conference site <a href="conf">Conference</a></p>
+    <form action="/submit" name="conference" id="conference">
+        <fieldset>
+<legend><H1><b>Conference information</b></H1></legend>
+    <div>
+        <label for="name"> Name</label>
+        <input type="text">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+    </div>
+    <div>
+        <label for="date">Date</label>
+        <input type="date" min="2024-5-12">
+    </div>
+    <div>
+        <label for="Attendance">Attendance</label>
+        <input type="radio" name="Attendance" id="inperson" >
+        <label for="d">In person</label>
+        <input type="radio" name="Attendance" id="inperson" >
+        <label for="d">Virtual</label>
+    </div>
+    <div>
+        <label for="work">Work shope</label>
+        <input type="checkbox">
+        <label for="u">k</label>
+        <input type="checkbox">
+        <label for="j">s</label>
+    </div>
+    <div>
+        <label for="comment">Comment</label><br>
+        <textarea name="coment" id="comment"></textarea>
+    </div>
+    <div>
+        <input type="submit">
+        <input type="reset">
+    </div>
+        </fieldset>
+    </form>
+</body>
+</html>
