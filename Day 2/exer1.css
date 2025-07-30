@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: red;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    background-color: gray;
+    padding: 20px;
+}
+#specific{
+    border: 2px solid black;
+    margin: 20px;
+}
