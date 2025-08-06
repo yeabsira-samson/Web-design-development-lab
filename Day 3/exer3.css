@@ -1,0 +1,17 @@
+.content_container{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+ main{
+    flex-basis: 60%;
+    flex-grow: 2;
+}
+.ad {
+flex-grow: 1;
+background-color: lightcoral;
+}
+.side {
+    flex-shrink: 0;
+    background-color: lightgreen;
+}

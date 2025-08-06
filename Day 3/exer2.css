@@ -1,0 +1,14 @@
+.blog_container{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+h1{
+    font-size: 18px;
+    font-weight: bold;
+    flex: 1;
+}
+p{
+    flex: 1;
+}

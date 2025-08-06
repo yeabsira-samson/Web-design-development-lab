@@ -1,0 +1,36 @@
+.pricing_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,150px);
+    gap: 10px;
+    
+    
+}
+.div1{
+    
+    width: 120px;
+    height: 120px;
+    background-color: lightblue;
+}
+.div2{
+    
+   width: 120px;
+    height:120px;
+    background-color: lightcoral;
+}
+.div3{
+   
+    width: 120px;
+    height: 120px;
+    background-color: lightpink;
+}
+.div4{
+    
+   width: 120px;
+    height: 120px;
+    background-color: lightseagreen;
+}
+div p{
+    font-size: 16px;
+    text-align: center;
+}
